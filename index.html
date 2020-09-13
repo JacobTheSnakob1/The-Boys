@@ -14,7 +14,7 @@
                 Nerdiest Kids<br/>
                 You Know</h1>
                 <h3>Cameron, Reed, Dom,<br/> Jake, Isaac, Alex,<br/> and Nikolai</h3>
-                <button class="cta alt">Read More</button>
+                <a class="cta alt" href="#more-info">Read More</a>
                 <div class="character1"></div>
                 <div class="character2"></div>
                 <div class="character3"></div>
@@ -30,11 +30,11 @@
         <a href="#" class="logo">The Boys</a>
         <ul>
             <li><a href="#">Sign Up</a></li>
-            <li><a href="#">The Story</a></li>
-            <li><a href="#">More Info</a></li>
+            <li><a href="#story">The Story</a></li>
+            <li><a href="#more-info">More Info</a></li>
         </ul>
     </nav>
-    <div class="more-info">
+    <div class="more-info" id="more-info" >
         <h2>Join Our Group</h2>
         <p><span class="highlight">Everyday</span> were in our Discord Server, playing games together,
              whether it be flaming eachother in a comp match or accusing someone in Among Us. 
@@ -42,7 +42,20 @@
         <button class="cta">Log Me The Fuck In</button>
     </div>
     <div class="sep"></div>
-    <div class="story">
+    <div class="story" id="story">
+        <ul class="nb-list">
+            <li class="white">Among Us</li>
+            <li class="gray">&nbsp;</li>
+            <li class="dragging">Overwatch</li>
+            <li class="blue">Battlefield</li>
+            <li class="darkgray">Rainbow Six Siege</li>
+            <li class="darkgreen">Halo: MCC</li>
+            <li class="gold">Sid Meier's Cvilization VI</li>
+            <li class="black">Dead By Daylight</li>
+            <li class="green">Minecraft</li>
+            <li class="red">Apex Legends</li>
+            <li class="orange">Rust</li>
+        </ul>
         <h3>(Left) Games We Fuck With Right Now</br> (Below) How The Boys Came To Be</h3>
         <p>Jake, Isaac, Dom, Nik, and Alex all lived in the same neighborhood since they were very young.
              They all quickly became friends through thier shared love of Nerf guns, outdoor sports, 
@@ -53,17 +66,38 @@
         <p>We quickly had many people in our discord server and continued to play many types of games. 
             We all have our own favorite types of games we play by ourselves 
             but we also play many games together across many different genres.</p>
-        <p>Were always looking for more people to join us to play different types of games and how it can influence us to try new things.</p>    
+        <p>Were always looking for more people to join us to play different types of games 
+            and how it can influence us to try new things.</p>
     </div>
     <div class="sep"></div>
     <img src="img/IMG_3146.jpg" width="735" height="399" alt="The Boys">
     <footer>
-
+        Made by <a href="https://steamcommunity.com/id/stunna2332/">Jake from the Discord
     </footer>
     <div class="popup">
         <div class="blanket"></div>
         <div class="content">
-            <button class="close"></button>
+            <h2>Sign Up with Information</h2>
+            <form action="">
+                <div class="item">
+                    <label >Your First Name</label>
+                    <input type="text" placeholder="First Name Here">
+                </div>
+                <div class="item">
+                    <label ></label>Your Last Name</label>
+                    <input type="text" placeholder="Last Name Here">
+                </div>
+                <div class="item">
+                    <label >Steam ID</label>
+                    <input type="text" placeholder="Steam ID Here">
+                </div>
+                <div class="item">
+                    <label >Discord Username</label>
+                    <input type="text" placeholder="Discord Username Here">
+                </div>
+                <button class="cta">Sign Up!</button>
+            </form>
+            <button class="close">Close</button>
     </div>
 </body>
 </html>
