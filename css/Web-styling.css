@@ -1,128 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-body, html{
-    font-family: 'Ubuntu', sans-serif;
-    padding: 0;
-    margin: 0;
+body,
+html {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* h1 is title words */
+h1 {
+  font-weight: 800;
+  font-size: 100px;
+}
+/* h3 is names*/
+h3 {
+  font-weight: bold;
+  font-size: 50px;
 }
 
-h1{
-font-weight: 800;
-font-size: 50px;
+h4 {
+  font-weight: bold;
+  font-size: 30px;
 }
 
-h3{
-    font-weight: bold;
-    font-size: 30px;
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
-h4{
-font-weight: bold;
-font-size: 20px;
+.hero-banner {
+  background-color: #393c43;
+  min-height: 100vh;
+  padding: 50 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
-.wrapper{
-width: 960px;
-margin: 0 auto;
+.hero-banner h1 {
+  color: white;
+  margin: 14px 0 20px;
 }
 
-.hero-banner{
-background-color: #393c43;
-height: 100vh;
-padding: 50 20px;
-box-sizing: border-box;
-position: relative;
-overflow: hidden;
-}
-
-.hero-banner h1{
-    color: white;
-    margin: 14px 0 20px;
-}
-
-.hero-banner h3{
-    color: white;
-    margin: 0 0 35px;
+.hero-banner h3 {
+  color: white;
+  margin: 0 0 35px;
 }
 
 .hero-banner h4,
-.hero-banner h4 a{
-    color: white;
-    margin: 0;
+.hero-banner h4 a {
+  color: white;
+  margin: 0;
 }
 
-.character1{
-    background-image: url(img2\Jakepfp.JPG);
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10%;
+.character1 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 10%;
+  right: 30%;
 }
 
-.character2{
-    background: url(Dompfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character2 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 10%;
+  right: 20%;
 }
 
-.character3{
-    background: url(Alexpfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character3 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
 
-.character4{
-    background: url(Cameronpfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character4 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 25%;
+  right: 30%;
 }
 
-.character5{
-    background: url(Isaacpfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character5 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 25%;
+  right: 20%;
 }
 
-.character6{
-    background: url(Reedpfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character6 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 25%;
+  right: 10%;
 }
 
-.character7{
-    background: url(Nikpfp.JPG) no-repeat 0 0;
-    background-size: 100%;
-width: 98px;
-height: 96px;
-position: absolute; top: 10px; right: 10px;
+.character7 {
+  background-size: contain;
+  width: 98px;
+  height: 96px;
+  position: absolute;
+  top: 40%;
+  right: 20%;
 }
 
 a.cta,
-button.cta{
-font-size: 30px;
-font-weight: bold;
-color: white;
-background: #393c43;
-display: inline-block;
-box-shadow: 0 0 0 10px rgb(32, 34, 37);
-padding: 20px 30px;
-border-radius: 10px;
-text-decoration: none;
+button.cta {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: #393c43;
+  display: inline-block;
+  box-shadow: 0 0 0 10px rgb(32, 34, 37);
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 a.cta.alt,
-button.cta.alt{
-background-color: #393c43;
-box-shadow: 0 0 0 10px rgb(32, 34, 37);
+button.cta.alt {
+  background-color: #393c43;
+  box-shadow: 0 0 0 10px rgb(32, 34, 37);
 }
 
 /* 
@@ -143,4 +151,4 @@ box-shadow: 0 0 0 10px rgb(32, 34, 37);
                 <div class="character7"></div>
 </div>
 
-        */ 
+        */
