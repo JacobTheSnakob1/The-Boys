@@ -39,6 +39,15 @@ p {
   margin: 0 auto;
 }
 
+.hero-banner .wrapper {
+  height: 464px;
+  position: absolute;
+  top: 50%;
+  margin-top: -232px;
+  left: 50%;
+  margin-left: -480px;
+}
+
 .hero-banner {
   background-color: #393c43;
   min-height: 100vh;
@@ -138,7 +147,16 @@ button.cta {
   padding: 20px 30px;
   border-radius: 10px;
   text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
+
+a.cta:active,
+button.cta:active {
+  opacity: 0.7;
+}
+
 a.cta.alt,
 button.cta.alt {
   background-color: #393c43;
@@ -216,13 +234,139 @@ nav ul li a {
   font-weight: 800;
 }
 
+.sep {
+  width: 470px;
+  height: 10px;
+  background-color: #111111;
+  margin: 70px auto;
+}
+
+.story h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.nb-list {
+  width: 470px;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+  background-color: #66717f;
+  float: left;
+  margin: 0 20px 20px 0;
+  position: relative;
+}
+
+.nb-list li {
+  height: 70px;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  padding: 6px 20px;
+  box-sizing: border-box;
+}
+.nb-list li.white {
+  background-color: white;
+  color: #111111;
+}
+.nb-list li.gray {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nb-list li.yellow {
+  background-color: yellow;
+  color: black;
+}
+.nb-list li.blue {
+  background-color: blue;
+}
+.nb-list li.darkgray {
+  background-color: darkgray;
+}
+.nb-list li.darkgreen {
+  background-color: darkgreen;
+}
+.nb-list li.gold {
+  background-color: gold;
+  color: black;
+}
+.nb-list li.black {
+  background-color: black;
+}
+.nb-list li.green {
+  background-color: green;
+}
+.nb-list li.red {
+  background-color: red;
+}
+.nb-list li.orange {
+  background-color: orange;
+}
+
+.nb-list li.dragging {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  right: -30px;
+  transform: rotate(6deg);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+}
+
+.nb-list li.dragging::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 50px;
+  background: url(../img2/hand.png) no-repeat 0 0;
+  background-size: 100%;
+  bottom: -30px;
+  left: 60%;
+}
+
+footer {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  margin: 85px 0 45px;
+  font-weight: bold;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.popup {
+  display: none;
+}
 /*
- <nav>
-        <a href="#" class="logo">The Boys</a>
-        <ul>
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#story">The Story</a></li>
-            <li><a href="#more-info">More Info</a></li>
+ <div class="sep"></div>
+    <div class="story" id="story">
+        <ul class="nb-list">
+            <li class="white">Among Us</li>
+            <li class="gray">&nbsp;</li>
+            <li class="yellow dragging">Overwatch</li>
+            <li class="blue">Battlefield</li>
+            <li class="darkgray">Rainbow Six Siege</li>
+            <li class="darkgreen">Halo: MCC</li>
+            <li class="gold">Sid Meier's Cvilization VI</li>
+            <li class="black">Dead By Daylight</li>
+            <li class="green">Minecraft</li>
+            <li class="red">Apex Legends</li>
+            <li class="orange">Rust</li>
         </ul>
-    </nav>
+        <h3>(Left) Games We Fuck With Right Now</br> (Below) How The Boys Came To Be</h3>
+        <p>Jake, Isaac, Dom, Nik, and Alex all lived in the same neighborhood since they were very young.
+             They all quickly became friends through thier shared love of Nerf guns, outdoor sports, 
+             Legos and most of all videogames.They started out playing mostly Halo and COD on Xbox but towards Highscool days they switched to PC. 
+             Shortly after Jake met Reed along with a few other friends: Kody, Nick, and Cody who did already or would eventually
+              play on PC as well, 
+             and Reed introduced the group to even more people, namely Cameron.</p>
+        <p>We quickly had many people in our discord server and continued to play many types of games. 
+            We all have our own favorite types of games we play by ourselves 
+            but we also play many games together across many different genres.</p>
+        <p>Were always looking for more people to join us to play different types of games 
+            and how it can influence us to try new things.</p>
+    </div>
     */
