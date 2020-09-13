@@ -6,17 +6,17 @@ html {
   padding: 0;
   margin: 0;
 }
-/* h1 is title words */
+/*title words*/
 h1 {
   font-weight: 800;
   font-size: 100px;
 }
-/* h3 is names*/
+/*names*/
 h3 {
   font-weight: bold;
   font-size: 50px;
 }
-
+/*middle class*/
 h4 {
   font-weight: bold;
   font-size: 30px;
@@ -133,22 +133,43 @@ button.cta.alt {
   box-shadow: 0 0 0 10px rgb(32, 34, 37);
 }
 
-/* 
+nav {
+  height: 100px;
+  background-color: #7289da;
+  position: sticky;
+}
 
-<div class="hero-banner">
-        <div class="wrapper">
-            <h4>The <a href="https://www.investopedia.com/terms/m/middle-class.asp">Middle Class</a> Presents</h4>
-            <h1>The Whitest &amp;<br/>Nerdiest Kids<br/>You Know</h1>
-            <h3>Cameron, Reed, Dom,<br/> Jake, Isaac, Alex,<br/> and Nikolai</h3>
-                <a class="cta alt" href="#more-info">Read More</a>
-        </div>
-                <div class="character1"></div>
-                <div class="character2"></div>
-                <div class="character3"></div>
-                <div class="character4"></div>
-                <div class="character5"></div>
-                <div class="character6"></div>
-                <div class="character7"></div>
-</div>
+nav .logo {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  margin-top: -20px;
+  background-size: contain;
+  overflow: hidden;
+  text-indent: -999px;
+}
 
-        */
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 35px 10px;
+}
