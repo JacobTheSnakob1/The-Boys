@@ -20,12 +20,12 @@ h2 {
 /*names*/
 h3 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
 }
 /*middle class*/
 h4 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 p {
@@ -149,7 +149,7 @@ button.cta.alt {
 nav {
   height: 100px;
   background-color: #7289da;
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -158,7 +158,7 @@ nav {
 nav .logo {
   display: block;
   width: 300px;
-  height: 50px;
+  height: 40px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -197,6 +197,23 @@ nav ul li a {
 
 .more-info {
   text-align: center;
+}
+
+.more-info p {
+  margin: 18px 0 35px;
+}
+
+.more-info h2 {
+  margin-top: 50px 0 0;
+}
+
+.highlight {
+  background-color: #7289da;
+  color: white;
+  padding: 5px 10px;
+  line-height: 50px;
+  display: inline;
+  font-weight: 800;
 }
 
 /*
